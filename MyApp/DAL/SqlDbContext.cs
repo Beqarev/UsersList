@@ -12,7 +12,6 @@ namespace MyApp.DAL
     {
         string connectionString =
             "Data Source=LocalHost;Initial Catalog=Persons;Integrated Security=true;";
-
         public List<Contact> GetContacts()
         {
             var result = new List<Contact>();
